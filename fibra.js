@@ -64,10 +64,10 @@ function quedasExistem() {
         //var sinal1 = document.querySelector("#sinal1");
         //var quedas = querySelector("#quedas");
 
-        // -> formulario.insertBefore(divBottonQuedasExistem, ipv6);
+        formulario.insertBefore(divBottonQuedasExistem, ipv6);
 
         //localização do botao sim, quedas existem
-        // -> formulario.insertBefore(botaoQuedasExistem, ipv6);
+        formulario.insertBefore(botaoQuedasExistem, ipv6);
 
         //botao não, não existem quedas em outros clientes na mesma caixa
         var botaoQuedasNaoExistem = document.createElement("button");
@@ -78,7 +78,7 @@ function quedasExistem() {
         botaoQuedasNaoExistem.innerHTML='Não';
         
         //localização do botao nao, quedas nao existem
-        // -> formulario.insertBefore(botaoQuedasNaoExistem, ipv6);
+        formulario.insertBefore(botaoQuedasNaoExistem, ipv6);
         
         //criando div para encaminhar O.S.
         var divEncaminharOS = document.createElement("div");
