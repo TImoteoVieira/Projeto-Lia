@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibra</title>
+    <link rel="stylesheet" href="fibra.css">
+    <script defer src="fibra.js"></script>
+</head>
+<body>
+    
+    <form id="formulario">
+        <div id="sinal">
+            <p>Calculo de sinal</p>
+            <input id="sinalAtual" type="number" name="number" placeholder="Sinal atual">
+            <input id="sinalCaixa" type="number" name="number" placeholder="Sinal médio da caixa">
+            <button id="botaoCalcularSinal" type="button" onclick="calcularSinal()">Calcular</button>
+            <p id="txtResultadoSinal"></p>
+        </div>
+
+        <div id="quedas">
+            <p>Existem quedas no extrato da conexão abaixo de 24h?</p>
+            <button class="positivo" type="button" id="quedasSim" onclick="quedasExistem()">Sim</button>
+            <button class="negativo" type="button" id="quedasNao" onclick="quedasNaoExistem()">Não</button>
+            <p id="txtQuedas"></p>
+        </div>
+
+        <div id="sinal1"></div>
+        
+        <div id="ipv6">
+        <br> <br>
+        <p id="ipv6Ativo">O ipv6 está ativo?</p>
+        <button class="positivo" type="button" id="botaoSimIpv6" onclick="ipv6Verdade()">Sim</button>
+        <button class="negativo" type="button" id="botaoNaoIpv6" onclick="ipv6Falso()">Não</button>
+        <p id="txtIpv6"></p>       
+        </div>
+        
+        <div>
+            <br> <br>
+            <p id="dnsAtivo">O dns está configurado corretamente?</p>
+            <button class="positivo" type="button" id="botaoSimDns" onclick="dnsVerdade()">Sim</button>
+            <button class="negativo" type="button" id="botaoNaoDns" onclick="dnsFalso()">Não</button>
+            <p id="txtDns"></p>       
+        </div>
+        
+        <div id="userSenha">
+            <br> <br>
+            <p id="usuarioESenha">Qual o usuário e senha da ONU?</p>
+            <input id="usuarioLogin" type="text" name="text" placeholder="Usuário">
+            <input id="senhaLogin" type="text" name="text" placeholder="Senha">
+            <button id="guardarUserPassword" type="button" onclick="usuarioSenha()">Guardar</button>
+            <p id="txtUsuarioSenha"></p>
+        </div>
+        
+        <div id="tiposOnu">
+            <br> <br>
+            <p id="paragrafoTiposOnu">A ONU é:</p>
+            <button type="button" id="botaoParks" onclick="parks()">Parks</button>
+            <button type="button" id="botaoNokia" onclick="nokia()">Nokia</button>
+            <button type="button" id="botaoFiberhome" onclick="fiberhome()">Fiberhome</button>
+            <button type="button" id="botaoHuawei" onclick="huawei()">Huawei</button>
+            <button type="button" id="botaoIntelbras" onclick="intelbras()">Intelbras</button>
+
+            <p id="txtParksVerdade"></p>
+            <p id="txtNokiaVerdade"></p>
+            <p id="txtFiberhomeVerdade"></p>
+            <p id="txtHuaweiVerdade"></p>
+            <p id="txtIntelbrasVerdade"></p>
+
+        </div>
+
+        <div id="wifi">
+            <br> <br>
+            <p id="paragrafoWifi">O cliente apresenta problemas de alcance na rede wi-fi da residência?</p>
+            <button class="positivo" type="button" id="botaoSimWifi" onclick="problemaWifi()">Sim</button>
+            <button class="negativo" type="button" id="botaoNaoWifi" onclick="problemaNaoWifi()">Não</button>
+            <p id="txtWifi"></p>       
+        </div>
+
+        <div id="velocidade">
+            <br> <br>
+            <p id="paragrafoVelocidade">A velocidade é suficiente para uso do cliente? </p>
+            <button class="positivo" type="button" id="botaoSimVelocidade" onclick="velocidadeSim()">Sim</button>
+            <button class="negativo" type="button" id="botaoNaoVelocidade" onclick="velocidadeNao()">Não</button>
+            <p id="txtVelocidade"></p>       
+        </div>
+
+        <div id="equipamentoBanda">
+            <br> <br>
+            <p id="paragrafoEquipamentoBanda"> O equipamento do cliente passa a banda contratada? </p>
+            <button class="positivo" type="button" id="botaoEquipamentoBandaSim" onclick="equipamentoBandaSim()">Sim</button>
+            <button class="negativo" type="button" id="botaoEquipamentoBandaNao" onclick="equipamentoBandaNao()">Não</button>
+            <p id="txtEquipamentoBanda"></p>       
+        </div>
+
+        <div id="site">
+            <br> <br>
+            <p id="paragrafoSite"> O cliente apresenta problemas para acessar algum site, plataforma ou app específico que você não sabe resolver? </p>
+            <button class="positivo" type="button" id="botaoSiteSim" onclick="siteSim()">Sim</button>
+            <button class="negativo" type="button" id="botaoSiteNao" onclick="siteNao()">Não</button>
+            <p id="txtSite"></p>       
+        </div>
+
+        <div id="problema">
+            <br> <br>
+            <p id="paragrafoProblema"> O cliente ainda apresenta algum problema? </p>
+            <button class="positivo" type="button" id="botaoProblemaSim" onclick="problemaSim()">Sim</button>
+            <button class="negativo" type="button" id="botaoProblemaNao" onclick="problemaNao()">Não</button>
+            <p id="txtProblema"></p>       
+        </div>
+
+        
+    </form>
+</body>
+</html>

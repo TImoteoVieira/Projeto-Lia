@@ -1,0 +1,25 @@
+O cliente apresenta problemas de alcance da rede wi-fi na residência?
+    se sim, você consegue atuar remotamente?
+        Se sim, após atuar remotamente, ainda há algum problema de alcance na conexão?
+        se não conseguir, imprima: encaminhe para visita técnica e análise do técnico no local
+    senão, imprima: encaminhar para visita técnica e informe ao cliente que caso seja necessário um técnico irá instalar o roteador pra teste por 07 dias
+
+A velocidade contratada do cliente é suficiente para seu uso?
+    se não for, imprima: pergunte ao cliente se ele aceita que o setor comercial negocie um aumento de velocidade
+        se ele aceitar, imprima: encaminhe para o setor comercial
+    senão, imprima: esclareça ao cliente que seu problema é devido a banda contratada e tente persuadir o cliente a encaminhar o atendimento para o setor comercial
+
+o equipamento do cliente passa a banda contratada?
+    se não passa, imprima: informe ao cliente que irá encaminhar um técnico para trocar seus equipamentos a custo da empresa
+
+O cliente apresenta problemas para algum site, plataforma ou app específico?
+    Se sim, você sabe resolver o problema do cliente?
+        Se sim, você resolveu o problema do cliente?
+        senão imprima: encaminhe para o setor de redes analisar o site, plataforma ou app específico
+
+
+O cliente ainda apresenta algum problema?
+    se sim, você consegue resolver?
+        Se sim, você resolveu?
+    senão, encaminhe para o setor responsável solucionar a falha do cliente
+        senão, encaminhe para o setor responsável solucionar a falha do cliente
