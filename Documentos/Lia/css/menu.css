@@ -1,0 +1,48 @@
+/*Edição do corpo do projeto*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: none;
+}
+.container{
+    background-color: rgba(46, 163, 173, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(57, 165, 184);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: honeydew;
+    cursor: pointer;    
+}
+input:hover {
+    background-color: rgb(64, 54, 199);
+    cursor: pointer;
+    font-size: 21px;
+
+}
+
+.header-img {
+    margin-left: 50px;
+    opacity: 0.6;
+}
+
+.attrib {
+    align-items: center;
+    color: rgb(5, 5, 5);
+    margin-top: 50rem;
+    margin-left: 35.5rem;
+}

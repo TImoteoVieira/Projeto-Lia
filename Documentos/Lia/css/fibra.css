@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: white; 
+    justify-content: left;
+    align-items: center;
+    height:200px;
+    width: 840px;
+    margin-left: 120px;
+
+}
+
+h1 {
+    height: 30%;
+    width: 1000px;
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    text-justify: auto;
+    align-content: space-between;
+}
+
+.header-img {
+    margin: none;
+    opacity: 0.6;
+}
+
+.attrib {
+    align-items: center;
+    color: rgb(5, 5, 5);
+    margin-top: 2rem;
+    margin-left: 27rem;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercial</title>
+    <link rel="stylesheet" href="../css/comercial.css">
+    <script defer src="../js/comercial.js"></script>
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.ico">
+    <img type="image/png" src="../img/logo-icon.png" class="header-img">
+    <title>formulario para o comercial</title>
+</head>
+<body>
+    <h1>Intruções técnicas para o comercial</h1>
+    <h2>Clientes Pessoa Física</h2>
+    <br> <br>
+    <h3>Cálculo de velocidade ideal</h3>
+    <form id="formularioVelocidade">
+        <div id="divVelocidade">
+            <p id="paragrafoVelocidade">Digite a quantidade existente de cada aparelho:</p>
+            <input id="celularQt" type="number" name="text" placeholder="Celular">
+            <input id="tv4KQt" type="number" name="text" placeholder="Televisão 4K">
+            <input id="tvQt" type="number" name="text" placeholder="Televisão">
+            <br>
+            <input id="PCNotQt" type="number" name="text" placeholder="Computador">
+            <input id="xboxQt" type="number" name="text" placeholder="XBOX">
+            <input id="playSQt" type="number" name="text" placeholder="PS4 ou PS5">
+            <br>
+            <button id="botaoVelocidade" type="button" onclick="calcularVelocidade()">Calcular</button>
+            <p id="txtCalcularVelocidade"></p>
+        </div>
+    </form>
+    <br> <br>
+    <form id="formularioRoteador">
+        <div id="divRoteador">
+            <h3>Cálculo do roteador ideal</h3>
+            <p id="paragrafoRoteador">Escreva a velocidade de download ideal:</p>
+            <input id="roteadorQt" type="number" name="text" placeholder="Download">
+            <button id="botaoRoteador" type="button" onclick="calcularRoteador()">Calcular</button>
+            <p id="txtCalcularRoteador"></p>
+        </div>
+    </form>
+
+    <br> <br>
+    <div id="divQtRoteador">
+        <h3 id="qtRoteador">Quantidade de roteador por residência</h3>
+        <p> A quantidade de roteadores na residência deve ser determinada pela quantidade de quartos. Onde há dois quartos apenas um aparelho é suficiente, onde há três ou quatro, dois aparelhos são necessários. Onde há mais de quatro quartos, é necessário realizar um projeto.
+        </p>
+        <p> Para as residências que possuem dois pisos é recomendado o uso de um roteador para cada piso.
+        </p>
+    </div>
+    <div>
+        <br> <br>
+        <h3> Roteadores disponíveis</h3>
+        <p>Roteador TP-Link 03 antenas - C20.</p>
+        <img src="../img/roteador-c20.jpeg">
+        <p>
+            Especificações técnicas:
+            <li>Conexões simultâneas de 2.4GHz 300Mbps e 5GHz 433Mbps para um total de 733Mbps de largura de banda disponível.</li>
+            <li>3 antenas externas oferecem sinal omnidirecional estável e cobertura wireless superior.</li>
+            <li>Suporta três modos: Roteador, Repetidor e Access Point.</li>
+            <li>Suporte a IGMP Proxy/Snooping, Bridge e Tag VLAN para otimizar o streaming de IPTV.</li>
+            <li>Os Controles dos Pais gerenciam quando e como os dispositivos conectados podem acessar a Internet.</li>
+            <li>Rede para Convidados oferece acesso separado para os hóspedes, ao mesmo tempo em que protege a rede privada.</li>
+            <li>Se você tem uma velocidade de até 100mega contratada com o seu provedor de internet,o Archer C20 é ideal para a sua casa.</li>
+        </p>
+        <br> <br>
+        <p>
+            Roteador TP-Link 04 antenas C5, com portas Gigabit.
+        </p>
+        <img src="../img/roteador-c5.jpeg">
+        <p>Especificações técnicas:
+            <li>Wi-Fi de banda dupla super-rápida, velocidade Wi-Fi de até 1.2Gbps, 2.4 GHz de 300Mbps, 5GHz de 867Mbps.</li>
+            <li>Gerenciamento Remoto Fácil, o protocolo TR-069 permite que um operador configure e gerencie remotamente dispositivos de usuário final.</li>
+            <li>4 antenas externas oferecem conexões wireless estáveis e ótima cobertura.</li>
+            <li>Suporta porta USB 2.0, compartilhe facilmente arquivos e mídia com dispositivos em rede.</li>
+            <li>Portas Full Gigabit, suporta a porta WAN 1000Mbps e quatro portas LAN 1000Mbps, para velocidades de transferência de dados ultra-rápidas.</li>
+        </p>
+    </div>
+    <div>
+        <br> <br>
+        <h3>Planos</h3>
+        <p id="paragrafoPlanos">
+            Aqui vemos os planos que a Link Cariri oferece aos clientes.
+        </p>
+        <img id="planosImg" src="../img/planos-link.jpeg">
+    </div>
+    <div id="divLink">
+        <br> <br>         <br> <br>
+        <a href="https://drive.google.com/drive/folders/1lnW_fDsbhHzSbB9iInXBMij5TxCJiX17?usp=sharing/"> Clique aqui para acessar o treinamento completo para o comercial.</a>
+    </div>
+    <p class="attrib">&copy; Lia 2021</p>
+</body>
+</html>
